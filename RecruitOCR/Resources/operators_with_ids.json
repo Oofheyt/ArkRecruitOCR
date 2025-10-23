@@ -1,0 +1,2651 @@
+{
+    "version": "1.2",
+    "date": "2025/10/23 21:56",
+    "description": "Arknights global server recruitment data",
+    "Author": "Alexbrock",
+    "credits": "ashleney, sethfire: https://github.com/ArknightsAssets/ArknightsGamedata for the original data",
+    "operators": [
+        {
+            "name": "Lancet-2",
+            "trait": "Restores the HP of allies and ignores the Deployment Limit, but has a long Redeployment Time",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "Robot",
+                "Healing"
+            ],
+            "description": "Lancet-2, Medic robot of Rhodes Island, is assigned by Engineer Closure to carry out medical assistance in the field.",
+            "descriptionTagLine": "She knows that she's a robot.",
+            "rarity": 1,
+            "role": "Medic",
+            "classBranch": "Medic",
+            "internalId": "char_285_medic2"
+        },
+        {
+            "name": "Castle-3",
+            "trait": "Blocks 1 enemy and ignores the Deployment Limit, but has a long Redeployment Time",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Robot",
+                "Support"
+            ],
+            "description": "Castle-3, Guard robot of Rhodes Island, is assigned by Engineer Closure to carry out combat duties in the field.",
+            "descriptionTagLine": "He knows that he's a robot.",
+            "rarity": 1,
+            "role": "Guard",
+            "classBranch": "Dreadnought",
+            "internalId": "char_286_cast3"
+        },
+        {
+            "name": "THRM-EX",
+            "trait": "Does not attack and ignores the Deployment Limit, but has a long Redeployment Time",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Robot",
+                "Nuker"
+            ],
+            "description": "Thermal-EX (a.k.a. THRM-EX), Specialist robot of Rhodes Island, is assigned by Engineer Closure to carry out combat missions.",
+            "descriptionTagLine": "He knows that he's a robot.",
+            "rarity": 1,
+            "role": "Specialist",
+            "classBranch": "Executor",
+            "internalId": "char_376_therex"
+        },
+        {
+            "name": "'Justice Knight'",
+            "trait": "Attacks aerial enemies first and ignores Deployment Limit, but has a long Redeployment Time",
+            "nation": "Kazimierz",
+            "group": "Pinus Sylvestris",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "Robot",
+                "Support"
+            ],
+            "description": "'Justice Knight' of the Pinus Sylvestris Knightclub, tasked at Rhodes Island with cover fire support.",
+            "descriptionTagLine": "She knows that she's a robot.",
+            "rarity": 1,
+            "role": "Sniper",
+            "classBranch": "Marksman",
+            "internalId": "char_4000_jnight"
+        },
+        {
+            "name": "Friston-3",
+            "trait": "Blocks 3 enemies and ignores Deployment Limit, but has a long Redeployment Time",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Robot",
+                "Defense"
+            ],
+            "description": "Rhodes Island Defender Robot Friston-3, deployed to the battlefield by Engineer Closure to participate in combat operations.",
+            "descriptionTagLine": "He doesn't think of himself as a robot.",
+            "rarity": 1,
+            "role": "Defender",
+            "classBranch": "Protector",
+            "internalId": "char_4093_frston"
+        },
+        {
+            "name": "PhonoR-0",
+            "trait": "Attacks deal Arts damage and can inflict Elemental Damage. Not affected by Deployment Limit, but has a long Redeployment Time.",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "Robot",
+                "Elemental"
+            ],
+            "description": "Rhodes Island Supporter Robot PhonoR-0, deployed to the battlefield by Engineer Closure to participate in combat operations.",
+            "descriptionTagLine": "She knows that she's a robot.",
+            "rarity": 1,
+            "role": "Supporter",
+            "classBranch": "Ritualist",
+            "internalId": "char_4136_phonor"
+        },
+        {
+            "name": "CONFESS-47",
+            "trait": "Blocks 2 enemies and ignores Deployment Limit, but has a long Redeployment Time",
+            "nation": "Laterano",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Robot",
+                "Crowd-Control"
+            ],
+            "description": "Laterano Confession booth \"CONFESS-47\", is willing to hear your confession.",
+            "descriptionTagLine": "It knows it is a public service.",
+            "rarity": 1,
+            "role": "Vanguard",
+            "classBranch": "Pioneer",
+            "internalId": "char_4188_confes"
+        },
+        {
+            "name": "Yato",
+            "trait": "Blocks 2 enemies",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "Operations Team A4",
+            "position": "Melee",
+            "tagList": [
+                "Starter"
+            ],
+            "description": "Yato, Vanguard Operator of Rhodes Island, will fight on the battlefield to give the squad the upper hand.",
+            "descriptionTagLine": "Everyone admires how much effort she puts into training.",
+            "rarity": 2,
+            "role": "Vanguard",
+            "classBranch": "Pioneer",
+            "internalId": "char_502_nblade"
+        },
+        {
+            "name": "Noir Corne",
+            "trait": "Blocks 3 enemies",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "Operations Team A4",
+            "position": "Melee",
+            "tagList": [
+                "Starter"
+            ],
+            "description": "Noir Corne, Defender Operator of Rhodes Island, will provide a solid defense for the squad.",
+            "descriptionTagLine": "You can see him cleaning his mask carefully every day.",
+            "rarity": 2,
+            "role": "Defender",
+            "classBranch": "Protector",
+            "internalId": "char_500_noirc"
+        },
+        {
+            "name": "Rangers",
+            "trait": "Attacks aerial enemies first",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "Operations Team A4",
+            "position": "Ranged",
+            "tagList": [
+                "Starter"
+            ],
+            "description": "Rangers, Sniper Operator of Rhodes Island, will repel enemy attacks with his longbow.",
+            "descriptionTagLine": "His energetic disposition conceals his age.",
+            "rarity": 2,
+            "role": "Sniper",
+            "classBranch": "Marksman",
+            "internalId": "char_503_rang"
+        },
+        {
+            "name": "Durin",
+            "trait": "Deals Arts damage",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "Operations Team A4",
+            "position": "Ranged",
+            "tagList": [
+                "Starter"
+            ],
+            "description": "Durin, Caster Operator of Rhodes Island, will give the squad a tactical advantage with her Originium Arts.",
+            "descriptionTagLine": "She looks quite sleepy.",
+            "rarity": 2,
+            "role": "Caster",
+            "classBranch": "Core Caster",
+            "internalId": "char_501_durin"
+        },
+        {
+            "name": "12F",
+            "trait": "Deals AOE Arts damage",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "Starter"
+            ],
+            "description": "12F, Caster Operator of Rhodes Island, will provide tactical aid for the squad with Originium Arts.",
+            "descriptionTagLine": "At least he can help out with something.",
+            "rarity": 2,
+            "role": "Caster",
+            "classBranch": "Splash Caster",
+            "internalId": "char_009_12fce"
+        },
+        {
+            "name": "Adnachiel",
+            "trait": "Attacks aerial enemies first",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "Operations Reserve Team A4",
+            "position": "Ranged",
+            "tagList": [
+                "DPS"
+            ],
+            "description": "Adnachiel, Sniper Operator of Rhodes Island, will interrupt the enemies' attacks with his crossbow.",
+            "descriptionTagLine": "His halo is lower than usual, but not his accuracy.",
+            "rarity": 3,
+            "role": "Sniper",
+            "classBranch": "Marksman",
+            "internalId": "char_211_adnach"
+        },
+        {
+            "name": "Fang",
+            "trait": "Blocks 2 enemies",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "Operations Reserve Team A1",
+            "position": "Melee",
+            "tagList": [
+                "DP-Recovery"
+            ],
+            "description": "Fang, Vanguard Operator of Rhodes Island, will fight on the battlefield to give the squad a tactical advantage.",
+            "descriptionTagLine": "She runs really fast.",
+            "rarity": 3,
+            "role": "Vanguard",
+            "classBranch": "Pioneer",
+            "internalId": "char_123_fang"
+        },
+        {
+            "name": "Vanilla",
+            "trait": "Blocks 2 enemies",
+            "nation": "Columbia",
+            "group": "Blacksteel",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DP-Recovery"
+            ],
+            "description": "Vanilla, Vanguard Operator of Blacksteel, will make way for the squad on the battlefield with her professional skills.",
+            "descriptionTagLine": "Don't let her know if you meet any wild animals.",
+            "rarity": 3,
+            "role": "Vanguard",
+            "classBranch": "Pioneer",
+            "internalId": "char_240_wyvern"
+        },
+        {
+            "name": "Plume",
+            "trait": "Obtain 1 DP after this unit defeats an enemy; Refunds the original DP Cost when retreated",
+            "nation": "Laterano",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DPS",
+                "DP-Recovery"
+            ],
+            "description": "Plume, Vanguard Operator of Rhodes Island, will provide reliable defense for the squad and hold back the enemy.",
+            "descriptionTagLine": "A guard of Laterano who looks serious all the time.",
+            "rarity": 3,
+            "role": "Vanguard",
+            "classBranch": "Charger",
+            "internalId": "char_192_falco"
+        },
+        {
+            "name": "Melantha",
+            "trait": "Blocks 1 enemy",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "Operations Reserve Team A4",
+            "position": "Melee",
+            "tagList": [
+                "DPS",
+                "Survival"
+            ],
+            "description": "Melantha, Guard Operator of Rhodes Island, will provide outstanding attack power for the squad.",
+            "descriptionTagLine": "Never underestimate her blade.",
+            "rarity": 3,
+            "role": "Guard",
+            "classBranch": "Dreadnought",
+            "internalId": "char_208_melan"
+        },
+        {
+            "name": "Beagle",
+            "trait": "Blocks 3 enemies",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "Operations Reserve Team A1",
+            "position": "Melee",
+            "tagList": [
+                "Defense"
+            ],
+            "description": "Beagle, Defender Operator of Rhodes Island, will provide a solid defense for the squad.",
+            "descriptionTagLine": "Try to encourage her more.",
+            "rarity": 3,
+            "role": "Defender",
+            "classBranch": "Protector",
+            "internalId": "char_122_beagle"
+        },
+        {
+            "name": "Kroos",
+            "trait": "Attacks aerial enemies first",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "Operations Reserve Team A1",
+            "position": "Ranged",
+            "tagList": [
+                "DPS"
+            ],
+            "description": "Kroos, Sniper Operator of Rhodes Island, will interrupt the enemies' attacks with her crossbow.",
+            "descriptionTagLine": "She is always aiming at her target.",
+            "rarity": 3,
+            "role": "Sniper",
+            "classBranch": "Marksman",
+            "internalId": "char_124_kroos"
+        },
+        {
+            "name": "Lava",
+            "trait": "Deals AOE Arts damage",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "Operations Reserve Team A1",
+            "position": "Ranged",
+            "tagList": [
+                "AoE"
+            ],
+            "description": "Lava, Caster Operator of Rhodes Island, will make way for the squad with her Originium Arts.",
+            "descriptionTagLine": "Please handle her relationship with Operator Hibiscus carefully.",
+            "rarity": 3,
+            "role": "Caster",
+            "classBranch": "Splash Caster",
+            "internalId": "char_121_lava"
+        },
+        {
+            "name": "Hibiscus",
+            "trait": "Restores the HP of allies",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "Operations Reserve Team A1",
+            "position": "Ranged",
+            "tagList": [
+                "Healing"
+            ],
+            "description": "Hibiscus, Medic Operator of Rhodes Island, will provide reliable medical care for the wounded.",
+            "descriptionTagLine": "Please handle her relationship with Operator Lava carefully.",
+            "rarity": 3,
+            "role": "Medic",
+            "classBranch": "Medic",
+            "internalId": "char_120_hibisc"
+        },
+        {
+            "name": "Ansel",
+            "trait": "Restores the HP of allies",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "Operations Reserve Team A4",
+            "position": "Ranged",
+            "tagList": [
+                "Healing"
+            ],
+            "description": "Rhodes Island Medic Operator Ansel, bringing a range of first aid solutions to the squad.",
+            "descriptionTagLine": "Do your best! Hang in there, Ansel!",
+            "rarity": 3,
+            "role": "Medic",
+            "classBranch": "Medic",
+            "internalId": "char_212_ansel"
+        },
+        {
+            "name": "Steward",
+            "trait": "Deals Arts damage",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "Operations Reserve Team A4",
+            "position": "Ranged",
+            "tagList": [
+                "DPS"
+            ],
+            "description": "Steward, Caster Operator of Rhodes Island, will make way for the squad with his Originium Arts.",
+            "descriptionTagLine": "Mr. Nice Guy of Reserve Squad A4.",
+            "rarity": 3,
+            "role": "Caster",
+            "classBranch": "Core Caster",
+            "internalId": "char_210_stward"
+        },
+        {
+            "name": "Orchid",
+            "trait": "Deals Arts damage and Slows the target for a short time",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "Operations Reserve Team A6",
+            "position": "Ranged",
+            "tagList": [
+                "Slow"
+            ],
+            "description": "Orchid, Supporter Operator of Rhodes Island, will provide support for the squad with her Originium Arts.",
+            "descriptionTagLine": "Make sure every second of her work time is recorded.",
+            "rarity": 3,
+            "role": "Supporter",
+            "classBranch": "Decel Binder",
+            "internalId": "char_278_orchid"
+        },
+        {
+            "name": "Catapult",
+            "trait": "Deals AOE Physical damage",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "Operations Reserve Team A6",
+            "position": "Ranged",
+            "tagList": [
+                "AoE"
+            ],
+            "description": "Catapult, Sniper Operator of Rhodes Island, is an expert at dealing with large targets.",
+            "descriptionTagLine": "She can barely follow the Operator Regulations, but you'll never find her working overtime.",
+            "rarity": 3,
+            "role": "Sniper",
+            "classBranch": "Artilleryman",
+            "internalId": "char_282_catap"
+        },
+        {
+            "name": "Midnight",
+            "trait": "Can launch Ranged Attacks that deal 80% of normal ATK",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "Operations Reserve Team A6",
+            "position": "Melee",
+            "tagList": [
+                "DPS"
+            ],
+            "description": "Midnight, Guard Operator of Rhodes Island, will dispose of enemies with his swordsmanship.",
+            "descriptionTagLine": "Surprisingly, he's quite skilled at fighting. Impressive.",
+            "rarity": 3,
+            "role": "Guard",
+            "classBranch": "Lord",
+            "internalId": "char_283_midn"
+        },
+        {
+            "name": "Popukar",
+            "trait": "Attacks all blocked enemies",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "Operations Reserve Team A6",
+            "position": "Melee",
+            "tagList": [
+                "AoE",
+                "Survival"
+            ],
+            "description": "Popukar, Guard Operator of Rhodes Island, will use her chainsaw to drive away enemies that pose a threat to the Doctor.",
+            "descriptionTagLine": "A good girl when she behaves herself, but a devil when she goes out of control.",
+            "rarity": 3,
+            "role": "Guard",
+            "classBranch": "Centurion",
+            "internalId": "char_281_popka"
+        },
+        {
+            "name": "Spot",
+            "trait": "Can heal allies by using skill(s)",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "Operations Reserve Team A6",
+            "position": "Melee",
+            "tagList": [
+                "Defense",
+                "Healing"
+            ],
+            "description": "Spot, Defender Operator of Rhodes Island, will provide basic medical care while defending against enemies.",
+            "descriptionTagLine": "He seems polite and gentle... until he opens his mouth.",
+            "rarity": 3,
+            "role": "Defender",
+            "classBranch": "Guardian",
+            "internalId": "char_284_spot"
+        },
+        {
+            "name": "Beehunter",
+            "trait": "Blocks 1 enemy",
+            "nation": "Ursus",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DPS"
+            ],
+            "description": "Beehunter, Guard Operator of Rhodes Island, will beat up enemies with her fighting skills.",
+            "descriptionTagLine": "Boxing comes second, honey comes first.",
+            "rarity": 4,
+            "role": "Guard",
+            "classBranch": "Fighter",
+            "internalId": "char_137_brownb"
+        },
+        {
+            "name": "Jackie",
+            "trait": "Blocks 1 enemy",
+            "nation": "Columbia",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DPS"
+            ],
+            "description": "Jackie, Guard Operator, is always brimming with energy.",
+            "descriptionTagLine": "Watching her, you feel like all your worries could disappear without a trace.",
+            "rarity": 4,
+            "role": "Guard",
+            "classBranch": "Fighter",
+            "internalId": "char_347_jaksel"
+        },
+        {
+            "name": "Beanstalk",
+            "trait": "This unit can designate one Tactical Point within attack range to call Reinforcements; ATK is increased to 150% when attacking enemies blocked by Reinforcements",
+            "nation": "Columbia",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "DP-Recovery",
+                "Summon"
+            ],
+            "description": "Top specialist Metal Crab breeder Beanstalk, commanding her Metal Crab teams to guard the frontline.",
+            "descriptionTagLine": "Carefully examine any expense applications she submits. Once in a while, her contracts hide tiny traps.",
+            "rarity": 4,
+            "role": "Vanguard",
+            "classBranch": "Tactician",
+            "internalId": "char_452_bstalk"
+        },
+        {
+            "name": "Haze",
+            "trait": "Deals Arts damage",
+            "nation": "Victoria",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "DPS",
+                "Debuff"
+            ],
+            "description": "Haze, Caster Operator of Rhodes Island, will provide support for the squad with her Originium Arts.",
+            "descriptionTagLine": "Nothing can get in her way.",
+            "rarity": 4,
+            "role": "Caster",
+            "classBranch": "Core Caster",
+            "internalId": "char_141_nights"
+        },
+        {
+            "name": "Gitano",
+            "trait": "Deals AOE Arts damage",
+            "nation": "Sami",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "AoE"
+            ],
+            "description": "Gitano, Caster Operator of Rhodes Island, will draw plans for the squad with her Originium Arts.",
+            "descriptionTagLine": "Your fortune for the day is...",
+            "rarity": 4,
+            "role": "Caster",
+            "classBranch": "Splash Caster",
+            "internalId": "char_109_fmout"
+        },
+        {
+            "name": "Greyy",
+            "trait": "Deals AOE Arts damage",
+            "nation": "Bolivar",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "AoE",
+                "Slow"
+            ],
+            "description": "Greyy, Caster Operator of Rhodes Island, will repel all enemies carefully with his Originium Arts.",
+            "descriptionTagLine": "Shine out, no matter how dim your light may be.",
+            "rarity": 4,
+            "role": "Caster",
+            "classBranch": "Splash Caster",
+            "internalId": "char_253_greyy"
+        },
+        {
+            "name": "Click",
+            "trait": "Controls a Drone to deal Arts damage to an enemy; When the Drone continuously attacks the same enemy, its damage will increase (up to 110% of the operator's ATK)",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "DPS",
+                "Crowd-Control"
+            ],
+            "description": "Click, Caster Operator of Rhodes Island, has been shooting video footage non-stop.",
+            "descriptionTagLine": "If possible, hit that Like button on her work.",
+            "rarity": 4,
+            "role": "Caster",
+            "classBranch": "Mech-accord Caster",
+            "internalId": "char_328_cammou"
+        },
+        {
+            "name": "Jessica",
+            "trait": "Attacks aerial enemies first",
+            "nation": "Columbia",
+            "group": "Blacksteel",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "DPS",
+                "Survival"
+            ],
+            "description": "Jessica, Sniper Operator of Blacksteel, will provide effective attack power for the squad with her professional skills.",
+            "descriptionTagLine": "If only she wasn't such a scaredy-cat...",
+            "rarity": 4,
+            "role": "Sniper",
+            "classBranch": "Marksman",
+            "internalId": "char_235_jesica"
+        },
+        {
+            "name": "Meteor",
+            "trait": "Attacks aerial enemies first",
+            "nation": "Kazimierz",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "DPS",
+                "Debuff"
+            ],
+            "description": "Meteor, Sniper Operator of Rhodes Island, is always ready to draw her bow.",
+            "descriptionTagLine": "Like a meteor, she crossed the sky and landed by your side.",
+            "rarity": 4,
+            "role": "Sniper",
+            "classBranch": "Marksman",
+            "internalId": "char_126_shotst"
+        },
+        {
+            "name": "Shirayuki",
+            "trait": "Deals AOE Physical damage",
+            "nation": "Higashi",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "AoE",
+                "Slow"
+            ],
+            "description": "Shirayuki, bodyguard of Mrs. Fumizuki, will provide help for you under the orders of her master.",
+            "descriptionTagLine": "To your surprise, she always reappears out of nowhere.",
+            "rarity": 4,
+            "role": "Sniper",
+            "classBranch": "Artilleryman",
+            "internalId": "char_118_yuki"
+        },
+        {
+            "name": "Pinecone",
+            "trait": "Attacks all enemies within range, and deals 150% damage to enemies in the row directly in front of this unit.",
+            "nation": "Columbia",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "AoE",
+                "DPS"
+            ],
+            "description": "Construction worker Pinecone, all spaced out while she gets the job done.",
+            "descriptionTagLine": "She looks half-asleep, but her work's laser-accurate. How does she do it?",
+            "rarity": 4,
+            "role": "Sniper",
+            "classBranch": "Spreadshooter",
+            "internalId": "char_440_pinecn"
+        },
+        {
+            "name": "Scavenger",
+            "trait": "Blocks 2 enemies",
+            "nation": "Rhodes Island",
+            "group": "S.W.E.E.P.",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DP-Recovery",
+                "DPS"
+            ],
+            "description": "Scavenger, executor of S.W.E.E.P, is ready for combat at any time.",
+            "descriptionTagLine": "She can clean everything, except her own room.",
+            "rarity": 4,
+            "role": "Vanguard",
+            "classBranch": "Pioneer",
+            "internalId": "char_149_scave"
+        },
+        {
+            "name": "Vigna",
+            "trait": "Obtain 1 DP after this unit defeats an enemy; Refunds the original DP Cost when retreated",
+            "nation": "Columbia",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DPS",
+                "DP-Recovery"
+            ],
+            "description": "Vigna, Vanguard Operator of Rhodes Island, is ready for combat with the lance in her hands.",
+            "descriptionTagLine": "Playing rock 'n roll is a battlefield of its own. This is a fact that she knows well.",
+            "rarity": 4,
+            "role": "Vanguard",
+            "classBranch": "Charger",
+            "internalId": "char_290_vigna"
+        },
+        {
+            "name": "Dobermann",
+            "trait": "Can attack enemies from range; When attacking enemies not blocked by self, increase ATK to 120%",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DPS",
+                "Support"
+            ],
+            "description": "Dobermann, Starter instructor of Rhodes Island, is always ready to offer advice on the battlefield.",
+            "descriptionTagLine": "You could always use the advice of a veteran.",
+            "rarity": 4,
+            "role": "Guard",
+            "classBranch": "Instructor",
+            "internalId": "char_130_doberm"
+        },
+        {
+            "name": "Matoimaru",
+            "trait": "Blocks 1 enemy",
+            "nation": "Higashi",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Survival",
+                "DPS"
+            ],
+            "description": "Matoimaru, Guard Operator of Rhodes Island, will wield her blade to wipe out the enemy.",
+            "descriptionTagLine": "Fast reactions, fast attacks, and even faster recovery.",
+            "rarity": 4,
+            "role": "Guard",
+            "classBranch": "Dreadnought",
+            "internalId": "char_289_gyuki"
+        },
+        {
+            "name": "Frostleaf",
+            "trait": "Can launch Ranged Attacks that deal 80% of normal ATK",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Slow",
+                "DPS"
+            ],
+            "description": "Frostleaf, Guard Operator of Rhodes Island, will obey all your orders.",
+            "descriptionTagLine": "Try to become her beacon.",
+            "rarity": 4,
+            "role": "Guard",
+            "classBranch": "Lord",
+            "internalId": "char_193_frostl"
+        },
+        {
+            "name": "Estelle",
+            "trait": "Attacks all blocked enemies",
+            "nation": "Sargon",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "AoE",
+                "Survival"
+            ],
+            "description": "Estelle, Guard Operator of Rhodes Island, still doubts if she can help.",
+            "descriptionTagLine": "Please trust her capability!",
+            "rarity": 4,
+            "role": "Guard",
+            "classBranch": "Centurion",
+            "internalId": "char_127_estell"
+        },
+        {
+            "name": "Mousse",
+            "trait": "Deals Arts damage",
+            "nation": "Victoria",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DPS"
+            ],
+            "description": "Mousse, Guard Operator of Rhodes Island, thinks of her enemies as oversized scratching posts.",
+            "descriptionTagLine": "In a word, scratch.",
+            "rarity": 4,
+            "role": "Guard",
+            "classBranch": "Arts Fighter",
+            "internalId": "char_185_frncat"
+        },
+        {
+            "name": "Gravel",
+            "trait": "Significantly reduced Redeployment Time",
+            "nation": "Kazimierz",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Fast-Redeploy",
+                "Defense"
+            ],
+            "description": "Gravel, Specialist Operator of Rhodes Island, will zip around the battlefield to defend the squad.",
+            "descriptionTagLine": "Is she really a knight? Really?",
+            "rarity": 4,
+            "role": "Specialist",
+            "classBranch": "Executor",
+            "internalId": "char_237_gravel"
+        },
+        {
+            "name": "Jaye",
+            "trait": "Has reduced Redeployment Time, but DP Cost is not refunded upon retreating; While deployed, 3 DP are consumed every 3 seconds (automatically retreats without sufficient DP)",
+            "nation": "Lungmen",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Fast-Redeploy",
+                "DPS"
+            ],
+            "description": "Jaye, Specialist Operator, will use his expert knife skills to force enemies back.",
+            "descriptionTagLine": "He is rather terrifying when he's out there fighting.",
+            "rarity": 4,
+            "role": "Specialist",
+            "classBranch": "Merchant",
+            "internalId": "char_272_strong"
+        },
+        {
+            "name": "Rope",
+            "trait": "Can Shift enemies by using skills and can be deployed on Ranged Tiles",
+            "nation": "Lungmen",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Shift"
+            ],
+            "description": "Rope, Specialist Operator of Rhodes Island, will provide assistance for the squad with her grappling hook.",
+            "descriptionTagLine": "Snag 'em and grab 'em! Who's next?",
+            "rarity": 4,
+            "role": "Specialist",
+            "classBranch": "Hookmaster",
+            "internalId": "char_236_rope"
+        },
+        {
+            "name": "Myrrh",
+            "trait": "Restores the HP of allies",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "Healing"
+            ],
+            "description": "Myrrh, Medic Operator of Rhodes Island, will provide medical care for the squad with her herbs.",
+            "descriptionTagLine": "She might be sweet, but her herbs are sure bitter.",
+            "rarity": 4,
+            "role": "Medic",
+            "classBranch": "Medic",
+            "internalId": "char_117_myrrh"
+        },
+        {
+            "name": "Perfumer",
+            "trait": "Restores the HP of 3 allies simultaneously",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "Healing"
+            ],
+            "description": "Perfumer, manager of 'Health Garden,' will use her fragrant aromatherapy to heal the squad.",
+            "descriptionTagLine": "Anyone with a pollen allergy should stay away.",
+            "rarity": 4,
+            "role": "Medic",
+            "classBranch": "Multi-target Medic",
+            "internalId": "char_181_flower"
+        },
+        {
+            "name": "Purestream",
+            "trait": "Has a large healing range, but the healing amount on farther targets is reduced to {heal_scale:0%}",
+            "nation": "Yan",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "Healing",
+                "Support"
+            ],
+            "description": "Purestream, water treatment specialist, is working hard as always, cautious and conscientious.",
+            "descriptionTagLine": "She always thought that throwing coins into water to make a wish was a rather silly practice.",
+            "rarity": 4,
+            "role": "Medic",
+            "classBranch": "Therapist",
+            "internalId": "char_385_finlpp"
+        },
+        {
+            "name": "Matterhorn",
+            "trait": "Blocks 3 enemies",
+            "nation": "Kjerag",
+            "group": "Karlan Trade Co., Ltd.",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Defense"
+            ],
+            "description": "Matterhorn, Defender of Karlan Trade CO.,LTD, is at your service as a Defender Operator.",
+            "descriptionTagLine": "The reliable shield of Kjerag.",
+            "rarity": 4,
+            "role": "Defender",
+            "classBranch": "Protector",
+            "internalId": "char_199_yak"
+        },
+        {
+            "name": "Cuora",
+            "trait": "Blocks 3 enemies",
+            "nation": "Columbia",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Defense"
+            ],
+            "description": "Cuora, Defender Operator of Rhodes Island, will provide reliable defense for the squad.",
+            "descriptionTagLine": "Yeah, it's time to get sturdy. Real sturdy.",
+            "rarity": 4,
+            "role": "Defender",
+            "classBranch": "Protector",
+            "internalId": "char_150_snakek"
+        },
+        {
+            "name": "Gummy",
+            "trait": "Can heal allies by using skill(s)",
+            "nation": "Ursus",
+            "group": "None",
+            "team": "Ursus Student Self-Governing Group",
+            "position": "Melee",
+            "tagList": [
+                "Defense",
+                "Healing"
+            ],
+            "description": "Gummy, Defender Operator of Rhodes Island, will heal her teammates while protecting them.",
+            "descriptionTagLine": "She whips up an absolutely scrumptious breakfast.",
+            "rarity": 4,
+            "role": "Defender",
+            "classBranch": "Guardian",
+            "internalId": "char_196_sunbr"
+        },
+        {
+            "name": "Earthspirit",
+            "trait": "Deals Arts damage and Slows the target for a short time",
+            "nation": "Leithanien",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "Slow"
+            ],
+            "description": "Earthspirit, Supporter Operator of Rhodes Island, will provide reliable support on the battlefield when she's on duty.",
+            "descriptionTagLine": "Is she hearing things again?",
+            "rarity": 4,
+            "role": "Supporter",
+            "classBranch": "Decel Binder",
+            "internalId": "char_183_skgoat"
+        },
+        {
+            "name": "Podenco",
+            "trait": "Deals Arts damage and Slows the target for a short time",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "Slow",
+                "Healing"
+            ],
+            "description": "Podenco, Supporter Operator, brings a touch of floral fragrance to an otherwise tense battlefield.",
+            "descriptionTagLine": "Her fragrance is so soothing, enough to make people drop on the spot.",
+            "rarity": 4,
+            "role": "Supporter",
+            "classBranch": "Decel Binder",
+            "internalId": "char_258_podego"
+        },
+        {
+            "name": "Shaw",
+            "trait": "Can attack all blocked enemies and can be deployed on Ranged Tiles",
+            "nation": "Lungmen",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Shift"
+            ],
+            "description": "Shaw, officer of the Lungmen Fire Department, will provide various means of tactical support for everyone.",
+            "descriptionTagLine": "Not just a firefighter.",
+            "rarity": 4,
+            "role": "Specialist",
+            "classBranch": "Push Stroker",
+            "internalId": "char_277_sqrrel"
+        },
+        {
+            "name": "Sussurro",
+            "trait": "Restores the HP of allies",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "Healing"
+            ],
+            "description": "Sussurro, Medic of Rhodes Island, is on standby to provide first aid at the front.",
+            "descriptionTagLine": "She will strictly follow the operator guidelines when providing medical assistance.",
+            "rarity": 4,
+            "role": "Medic",
+            "classBranch": "Medic",
+            "internalId": "char_298_susuro"
+        },
+        {
+            "name": "Myrtle",
+            "trait": "Cannot block enemies during the skill duration",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DP-Recovery",
+                "Healing"
+            ],
+            "description": "Myrtle, Vanguard of Rhodes Island, is ready to lead the charge into battle!",
+            "descriptionTagLine": "Maybe she should have a talk with Zima.",
+            "rarity": 4,
+            "role": "Vanguard",
+            "classBranch": "Standard Bearer",
+            "internalId": "char_151_myrtle"
+        },
+        {
+            "name": "Vermeil",
+            "trait": "Attacks aerial enemies first",
+            "nation": "Siracusa",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "DPS"
+            ],
+            "description": "Vermeil, Siracusan hunter, will identify the direction of the prey in the wilderness.",
+            "descriptionTagLine": "When hunting, please remember to remind your teammates about where the traps are hidden.",
+            "rarity": 4,
+            "role": "Sniper",
+            "classBranch": "Marksman",
+            "internalId": "char_190_clour"
+        },
+        {
+            "name": "May",
+            "trait": "Attacks aerial enemies first",
+            "nation": "Victoria",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "DPS",
+                "Slow"
+            ],
+            "description": "May, Sniper Operator of Rhodes Island, has issued a warning to wrongdoers and is not afraid to sanction them.",
+            "descriptionTagLine": "Does not accept frivolous investigations and odd jobs, such as searching for lost pets.",
+            "rarity": 4,
+            "role": "Sniper",
+            "classBranch": "Marksman",
+            "internalId": "char_133_mm"
+        },
+        {
+            "name": "Ambriel",
+            "trait": "Prioritizes attacking the enemy with lowest DEF within range first",
+            "nation": "Laterano",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "DPS",
+                "Slow"
+            ],
+            "description": "Ambriel, Sniper Operator of Rhodes Island, has her sights on your back from somewhere you cannot see.",
+            "descriptionTagLine": "A well-rounded and capable sniper, as long as she doesn't doze off.",
+            "rarity": 4,
+            "role": "Sniper",
+            "classBranch": "Deadeye",
+            "internalId": "char_302_glaze"
+        },
+        {
+            "name": "Aciddrop",
+            "trait": "High accuracy point-blank shot",
+            "nation": "Columbia",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "DPS"
+            ],
+            "description": "Aciddrop, Rhodes Island Operator, is a free-spirited skateboard warrior.",
+            "descriptionTagLine": "Goes around in circles for a week before hitting the target.",
+            "rarity": 4,
+            "role": "Sniper",
+            "classBranch": "Heavyshooter",
+            "internalId": "char_366_acdrop"
+        },
+        {
+            "name": "Cutter",
+            "trait": "Normal attacks deal damage twice",
+            "nation": "Columbia",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Nuker",
+                "DPS"
+            ],
+            "description": "Cutter, mercenary, will complete all tasks on the battlefield in a calm and disciplined manner.",
+            "descriptionTagLine": "The kitchen is more dangerous than the battlefield, and it would be best to not let her in the kitchen.",
+            "rarity": 4,
+            "role": "Guard",
+            "classBranch": "Swordmaster",
+            "internalId": "char_301_cutter"
+        },
+        {
+            "name": "Utage",
+            "trait": "Can't be healed by other units. Recovers HP every time this operator attacks an enemy",
+            "nation": "Higashi",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DPS",
+                "Survival"
+            ],
+            "description": "Utage, Guard Operator, is standing around on the front lines lazily.",
+            "descriptionTagLine": "Enemies are taken out in an absolutely terrifying manner.",
+            "rarity": 4,
+            "role": "Guard",
+            "classBranch": "Soloblade",
+            "internalId": "char_337_utage"
+        },
+        {
+            "name": "Arene",
+            "trait": "Can launch Ranged Attacks that deal 80% of normal ATK",
+            "nation": "Laterano",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DPS"
+            ],
+            "description": "Vanguard Operator Arene, always taking pleasure in toying with his enemies on the field.",
+            "descriptionTagLine": "Don't come too close. It's dangerous.",
+            "rarity": 4,
+            "role": "Guard",
+            "classBranch": "Lord",
+            "internalId": "char_271_spikes"
+        },
+        {
+            "name": "Bubble",
+            "trait": "Blocks 3 enemies",
+            "nation": "Sargon",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Defense"
+            ],
+            "description": "Defender Operator Bubble isn't scared of anything.",
+            "descriptionTagLine": "Well, she's a little scared of getting yelled at.",
+            "rarity": 4,
+            "role": "Defender",
+            "classBranch": "Protector",
+            "internalId": "char_381_bubble"
+        },
+        {
+            "name": "Whisperain",
+            "trait": "Has a large healing range, but the healing amount on farther targets is reduced to {heal_scale:0%}",
+            "nation": "Iberia",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "Healing"
+            ],
+            "description": "Whisperain, roving doctor, journeys gentle and lonely with us.",
+            "descriptionTagLine": "Come closer to her, and do not be afraid.",
+            "rarity": 5,
+            "role": "Medic",
+            "classBranch": "Therapist",
+            "internalId": "char_436_whispr"
+        },
+        {
+            "name": "Projekt Red",
+            "trait": "Significantly reduced Redeployment Time",
+            "nation": "Rhodes Island",
+            "group": "S.W.E.E.P.",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Fast-Redeploy",
+                "Crowd-Control"
+            ],
+            "description": "Projekt Red the Wolf Hunter, Specialist Operator of Rhodes Island, will join the hunt.",
+            "descriptionTagLine": "Her blades are her fangs.",
+            "rarity": 5,
+            "role": "Specialist",
+            "classBranch": "Executor",
+            "internalId": "char_144_red"
+        },
+        {
+            "name": "Waai Fu",
+            "trait": "Significantly reduced Redeployment Time",
+            "nation": "Lungmen",
+            "group": "None",
+            "team": "Lee's Detective Agency",
+            "position": "Melee",
+            "tagList": [
+                "Fast-Redeploy",
+                "Debuff"
+            ],
+            "description": "Waai Fu, intern Operator from Lungmen, received high marks in the comprehensive entrance examination.",
+            "descriptionTagLine": "Will never admit that she's the first hero of justice to graduate from her university.",
+            "rarity": 5,
+            "role": "Specialist",
+            "classBranch": "Executor",
+            "internalId": "char_243_waaifu"
+        },
+        {
+            "name": "Kafka",
+            "trait": "Significantly reduced Redeployment Time",
+            "nation": "Columbia",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Fast-Redeploy",
+                "Crowd-Control"
+            ],
+            "description": "Gardener Kafka, with a skip and a hop.",
+            "descriptionTagLine": "When she laughs, something wicked this way comes.",
+            "rarity": 5,
+            "role": "Specialist",
+            "classBranch": "Executor",
+            "internalId": "char_214_kafka"
+        },
+        {
+            "name": "Iris",
+            "trait": "Attacks deal Arts damage; When unable to find a target, attacks can be stored up and fired all at once (Up to 3 charges)",
+            "nation": "Victoria",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "DPS"
+            ],
+            "description": "Master of the Castle Iris, giving her utmost to grant all children sweet dreams.",
+            "descriptionTagLine": "As a spinner of dreams, perhaps she's the one who most believes.",
+            "rarity": 5,
+            "role": "Caster",
+            "classBranch": "Mystic Caster",
+            "internalId": "char_338_iris"
+        },
+        {
+            "name": "Indra",
+            "trait": "Blocks 1 enemy",
+            "nation": "Victoria",
+            "group": "Glasgow",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DPS",
+                "Survival"
+            ],
+            "description": "Indra, member of the Glasgow Gang, will gladly brawl with the big guys for you.",
+            "descriptionTagLine": "She is good at negotiating with her fists.",
+            "rarity": 5,
+            "role": "Guard",
+            "classBranch": "Fighter",
+            "internalId": "char_155_tiger"
+        },
+        {
+            "name": "Flint",
+            "trait": "Blocks 1 enemy",
+            "nation": "Sargon",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DPS"
+            ],
+            "description": "Flint, a tribal warrior, is the pure embodiment of power.",
+            "descriptionTagLine": "The first step towards communication starts with finding a common language.",
+            "rarity": 5,
+            "role": "Guard",
+            "classBranch": "Fighter",
+            "internalId": "char_415_flint"
+        },
+        {
+            "name": "Vulcan",
+            "trait": "Cannot be healed by allies",
+            "nation": "Minos",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Survival",
+                "Defense",
+                "DPS"
+            ],
+            "description": "Vulcan, Defender Operator of Rhodes Island, has lit the furnace for you. She's ready to start forging at any time.",
+            "descriptionTagLine": "Fixing things hardly interests her. Instead, she prefers to invent stuff.",
+            "rarity": 5,
+            "role": "Defender",
+            "classBranch": "Juggernaut",
+            "internalId": "char_163_hpsts"
+        },
+        {
+            "name": "Asbestos",
+            "trait": "Normal attacks deal Arts damage while the skill is active",
+            "nation": "Rim Billiton",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Defense",
+                "DPS"
+            ],
+            "description": "Asbestos, contracted explorer to Rhodes Island, is very reluctant to serve under you.",
+            "descriptionTagLine": "Don't read too much into things. She doesn't hate anyone, but naturally, she doesn't like anyone either.",
+            "rarity": 5,
+            "role": "Defender",
+            "classBranch": "Arts Protector",
+            "internalId": "char_378_asbest"
+        },
+        {
+            "name": "Ptilopsis",
+            "trait": "Restores the HP of 3 allies simultaneously",
+            "nation": "Columbia",
+            "group": "Rhine Lab",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "Healing",
+                "Support"
+            ],
+            "description": "Ptilopsis, database maintainer of Rhine Lab, activated. Please enter commands to operate.",
+            "descriptionTagLine": "101010111101000",
+            "rarity": 5,
+            "role": "Medic",
+            "classBranch": "Multi-target Medic",
+            "internalId": "char_128_plosis"
+        },
+        {
+            "name": "Zima",
+            "trait": "Blocks 2 enemies",
+            "nation": "Ursus",
+            "group": "None",
+            "team": "Ursus Student Self-Governing Group",
+            "position": "Melee",
+            "tagList": [
+                "DP-Recovery",
+                "Support"
+            ],
+            "description": "Zima, Vanguard Operator of Rhodes Island, will give the squad a tactical advantage with her physical strength at the start of every battle.",
+            "descriptionTagLine": "She always stands up for her friends, no matter what happens.",
+            "rarity": 5,
+            "role": "Vanguard",
+            "classBranch": "Pioneer",
+            "internalId": "char_115_headbr"
+        },
+        {
+            "name": "Texas",
+            "trait": "Blocks 2 enemies",
+            "nation": "Lungmen",
+            "group": "Penguin Logistics",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DP-Recovery",
+                "Crowd-Control"
+            ],
+            "description": "Texas, employee of Penguin Logistics, will give the squad a tactical advantage with her Originium Arts at the start of every battle.",
+            "descriptionTagLine": "You can trust her with your cargo.",
+            "rarity": 5,
+            "role": "Vanguard",
+            "classBranch": "Pioneer",
+            "internalId": "char_102_texas"
+        },
+        {
+            "name": "Chiave",
+            "trait": "Blocks 2 enemies",
+            "nation": "Siracusa",
+            "group": "None",
+            "team": "Chiave's Gang",
+            "position": "Melee",
+            "tagList": [
+                "DP-Recovery",
+                "DPS"
+            ],
+            "description": "Chiave, Vanguard Operator of Rhodes Island, will show off his skills on the front lines.",
+            "descriptionTagLine": "Instead of trying to get him to follow orders, cooperating with him to deliver orders might be less stressful.",
+            "rarity": 5,
+            "role": "Vanguard",
+            "classBranch": "Pioneer",
+            "internalId": "char_349_chiave"
+        },
+        {
+            "name": "Specter",
+            "trait": "Attacks all blocked enemies",
+            "nation": "Aegir",
+            "group": "Abyssal Hunters",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "AoE",
+                "Survival"
+            ],
+            "description": "Specter from the Abyssal Hunters is already done with her prayer and is now prowling the battlefield.",
+            "descriptionTagLine": "Her madness is terrifying.",
+            "rarity": 5,
+            "role": "Guard",
+            "classBranch": "Centurion",
+            "internalId": "char_143_ghost"
+        },
+        {
+            "name": "Broca",
+            "trait": "Attacks all blocked enemies",
+            "nation": "Siracusa",
+            "group": "None",
+            "team": "Chiave's Gang",
+            "position": "Melee",
+            "tagList": [
+                "AoE",
+                "Survival"
+            ],
+            "description": "Broca, Guard Operator of Rhodes Island, is busy defending the other Operators on the front lines.",
+            "descriptionTagLine": "He's not as scary as he looks.",
+            "rarity": 5,
+            "role": "Guard",
+            "classBranch": "Centurion",
+            "internalId": "char_356_broca"
+        },
+        {
+            "name": "Blue Poison",
+            "trait": "Attacks aerial enemies first",
+            "nation": "Iberia",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "DPS"
+            ],
+            "description": "Blue Poison, Sniper Operator of Rhodes Island, will attack the enemy with her venom.",
+            "descriptionTagLine": "Hold her hands, and give her confidence.",
+            "rarity": 5,
+            "role": "Sniper",
+            "classBranch": "Marksman",
+            "internalId": "char_129_bluep"
+        },
+        {
+            "name": "Platinum",
+            "trait": "Attacks aerial enemies first",
+            "nation": "Kazimierz",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "DPS"
+            ],
+            "description": "Platinum, member of Kazimierz Armorless Union, will provide versatile fire support on the battlefield.",
+            "descriptionTagLine": "A carefree girl, and the nightmare of all knights.",
+            "rarity": 5,
+            "role": "Sniper",
+            "classBranch": "Marksman",
+            "internalId": "char_204_platnm"
+        },
+        {
+            "name": "Meteorite",
+            "trait": "Deals AOE Physical damage",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "AoE",
+                "Debuff"
+            ],
+            "description": "Meteorite, Sniper Operator of Rhodes Island, is ready to pound enemies with her barrage.",
+            "descriptionTagLine": "She will fulfill her duties as long as she still has a weapon in her hands.",
+            "rarity": 5,
+            "role": "Sniper",
+            "classBranch": "Artilleryman",
+            "internalId": "char_219_meteo"
+        },
+        {
+            "name": "Sesa",
+            "trait": "Deals AOE Physical damage",
+            "nation": "Sargon",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "AoE",
+                "Debuff"
+            ],
+            "description": "Sesa, black market armament tuner, will level everything with grenades.",
+            "descriptionTagLine": "He really will blow things up for the sake of aesthetics.",
+            "rarity": 5,
+            "role": "Sniper",
+            "classBranch": "Artilleryman",
+            "internalId": "char_379_sesa"
+        },
+        {
+            "name": "Executor",
+            "trait": "Attacks all enemies within range, and deals 150% damage to enemies in the row directly in front of this unit.",
+            "nation": "Laterano",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "AoE"
+            ],
+            "description": "Executor, a professional undertaker sent from the Laterano Embassy, is glad to fulfill any and all contracts.",
+            "descriptionTagLine": "Be careful what you wish for, because he really can accomplish things that border on absurdity or impossibility.",
+            "rarity": 5,
+            "role": "Sniper",
+            "classBranch": "Spreadshooter",
+            "internalId": "char_279_excu"
+        },
+        {
+            "name": "Aosta",
+            "trait": "Attacks all enemies within range, and deals 150% damage to enemies in the row directly in front of this unit.",
+            "nation": "Siracusa",
+            "group": "None",
+            "team": "Chiave's Gang",
+            "position": "Ranged",
+            "tagList": [
+                "AoE"
+            ],
+            "description": "Aosta",
+            "descriptionTagLine": "If you have a problem, ask his advice.",
+            "rarity": 5,
+            "role": "Sniper",
+            "classBranch": "Spreadshooter",
+            "internalId": "char_346_aosta"
+        },
+        {
+            "name": "Mayer",
+            "trait": "Deals Arts damage and can use Summons in battles",
+            "nation": "Columbia",
+            "group": "Rhine Lab",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "Summon",
+                "Crowd-Control"
+            ],
+            "description": "Mayer, researcher of Rhine Lab, is ready for combat with her Meeboos.",
+            "descriptionTagLine": "A genius at multitasking in all aspects.",
+            "rarity": 5,
+            "role": "Supporter",
+            "classBranch": "Summoner",
+            "internalId": "char_242_otter"
+        },
+        {
+            "name": "Silence",
+            "trait": "Restores the HP of allies",
+            "nation": "Columbia",
+            "group": "Rhine Lab",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "Healing"
+            ],
+            "description": "Silence, medical specialist of Rhine Lab, will make use of the latest scientific developments on the battlefield.",
+            "descriptionTagLine": "There's no risk in the fruits of research, as they are only byproducts after all. Experimentation, on the other hand...",
+            "rarity": 5,
+            "role": "Medic",
+            "classBranch": "Medic",
+            "internalId": "char_108_silent"
+        },
+        {
+            "name": "Warfarin",
+            "trait": "Restores the HP of allies",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "Healing",
+                "Support"
+            ],
+            "description": "Warfarin, Medic Operator of Rhodes Island, sees the safety of her fellow Operators as her duty.",
+            "descriptionTagLine": "Of course, medical research is a tiny little bit more important.",
+            "rarity": 5,
+            "role": "Medic",
+            "classBranch": "Medic",
+            "internalId": "char_171_bldsk"
+        },
+        {
+            "name": "Nearl",
+            "trait": "Can heal allies by using skill(s)",
+            "nation": "None",
+            "group": "None",
+            "team": "Followers",
+            "position": "Melee",
+            "tagList": [
+                "Defense",
+                "Healing"
+            ],
+            "description": "Nearl, former knight of Kazimierz, is a core member on the battlefield with her defense and healing skills.",
+            "descriptionTagLine": "It feels relieving to have her by your side.",
+            "rarity": 5,
+            "role": "Defender",
+            "classBranch": "Guardian",
+            "internalId": "char_148_nearl"
+        },
+        {
+            "name": "Hung",
+            "trait": "Can heal allies by using skill(s)",
+            "nation": "Lungmen",
+            "group": "None",
+            "team": "Lee's Detective Agency",
+            "position": "Melee",
+            "tagList": [
+                "Defense",
+                "Healing"
+            ],
+            "description": "Hung, Defender Operator of Rhodes Island, will protect all the Operators on the front lines.",
+            "descriptionTagLine": "There's no need to speculate. His fur feels very nice to the touch.",
+            "rarity": 5,
+            "role": "Defender",
+            "classBranch": "Guardian",
+            "internalId": "char_226_hmau"
+        },
+        {
+            "name": "Liskarm",
+            "trait": "Blocks 3 enemies and attacks from long range.",
+            "nation": "Columbia",
+            "group": "Blacksteel",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Defense",
+                "DPS"
+            ],
+            "description": "Liskarm, Defender Operator of B.P.R.S. of Blacksteel, possesses both a solid shield and a sharp spear.",
+            "descriptionTagLine": "Her spear-like lightning will pierce all enemies in front of her.",
+            "rarity": 5,
+            "role": "Defender",
+            "classBranch": "Sentry Protector",
+            "internalId": "char_107_liskam"
+        },
+        {
+            "name": "Croissant",
+            "trait": "Blocks 3 enemies",
+            "nation": "Lungmen",
+            "group": "Penguin Logistics",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Defense",
+                "Shift"
+            ],
+            "description": "Croissant, special agent of Penguin Logistics, is willing to provide reliable defensive power for Rhodes Island as a Defender Operator.",
+            "descriptionTagLine": "Business is like a war without bullets! All the training and hard work has lead to this day!",
+            "rarity": 5,
+            "role": "Defender",
+            "classBranch": "Protector",
+            "internalId": "char_201_moeshd"
+        },
+        {
+            "name": "Provence",
+            "trait": "High accuracy point-blank shot",
+            "nation": "Siracusa",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "DPS"
+            ],
+            "description": "Provence, Catastrophe Messenger of Rhodes Island, always keeps an eye on the movements of Catastrophes and the enemy.",
+            "descriptionTagLine": "She also keeps an eye on everyone's health.",
+            "rarity": 5,
+            "role": "Sniper",
+            "classBranch": "Heavyshooter",
+            "internalId": "char_145_prove"
+        },
+        {
+            "name": "Firewatch",
+            "trait": "Prioritizes attacking the enemy with lowest DEF within range first",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "DPS",
+                "Nuker"
+            ],
+            "description": "Firewatch, Sniper Operator of Rhodes Island, will await your orders while undercover.",
+            "descriptionTagLine": "When will she smile for us? Even the faintest one...",
+            "rarity": 5,
+            "role": "Sniper",
+            "classBranch": "Deadeye",
+            "internalId": "char_158_milu"
+        },
+        {
+            "name": "Andreana",
+            "trait": "Prioritizes attacking the enemy with lowest DEF within range first",
+            "nation": "Aegir",
+            "group": "Abyssal Hunters",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "DPS",
+                "Slow"
+            ],
+            "description": "Andreana, Sniper Operator of Rhodes Island, will assist other Operators from a distance.",
+            "descriptionTagLine": "She's not a fan of hard work, but she'll take it seriously and get it done.",
+            "rarity": 5,
+            "role": "Sniper",
+            "classBranch": "Deadeye",
+            "internalId": "char_218_cuttle"
+        },
+        {
+            "name": "Cliffheart",
+            "trait": "Can Shift enemies by using skills and can be deployed on Ranged Tiles",
+            "nation": "Kjerag",
+            "group": "Karlan Trade Co., Ltd.",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Shift",
+                "DPS"
+            ],
+            "description": "Cliffheart, Specialist Operator of Rhodes Island, possesses both the tenacity of a climber and the sensitivity of a warrior.",
+            "descriptionTagLine": "It really hurts to be hit by a climbing pick.",
+            "rarity": 5,
+            "role": "Specialist",
+            "classBranch": "Hookmaster",
+            "internalId": "char_173_slchan"
+        },
+        {
+            "name": "Pramanix",
+            "trait": "Deals Arts damage",
+            "nation": "Kjerag",
+            "group": "Karlan Trade Co., Ltd.",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "Debuff"
+            ],
+            "description": "Pramanix, Karlan Saintess, is willing to send holy blessings to you as a Supporter Operator.",
+            "descriptionTagLine": "She doesn't actually feel like working that much.",
+            "rarity": 5,
+            "role": "Supporter",
+            "classBranch": "Hexer",
+            "internalId": "char_174_slbell"
+        },
+        {
+            "name": "Shamare",
+            "trait": "Deals Arts damage",
+            "nation": "Siracusa",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "Debuff"
+            ],
+            "description": "Shamare, Rhodes Island Operator, is seen as a harbinger of evil spirits by her enemies.",
+            "descriptionTagLine": "It takes a long time to sew a doll, so don't blame her for being late.",
+            "rarity": 5,
+            "role": "Supporter",
+            "classBranch": "Hexer",
+            "internalId": "char_254_vodfox"
+        },
+        {
+            "name": "Istina",
+            "trait": "Deals Arts damage and Slows the target for a short time",
+            "nation": "Ursus",
+            "group": "None",
+            "team": "Ursus Student Self-Governing Group",
+            "position": "Ranged",
+            "tagList": [
+                "Slow",
+                "DPS"
+            ],
+            "description": "Istina, member of Ursus Student Self-Governing Group, will beat the enemy with Originium Arts chosen from one of her books.",
+            "descriptionTagLine": "Education is the key to life's riches.",
+            "rarity": 5,
+            "role": "Supporter",
+            "classBranch": "Decel Binder",
+            "internalId": "char_195_glassb"
+        },
+        {
+            "name": "Glaucus",
+            "trait": "Deals Arts damage and Slows the target for a short time",
+            "nation": "Iberia",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "Slow",
+                "Crowd-Control"
+            ],
+            "description": "Glaucus, weapon reviewer of Raythean, is ready to take down enemy machines with the latest technology.",
+            "descriptionTagLine": "Please keep the receipt for that portable communication device.",
+            "rarity": 5,
+            "role": "Supporter",
+            "classBranch": "Decel Binder",
+            "internalId": "char_326_glacus"
+        },
+        {
+            "name": "Manticore",
+            "trait": "Deals Damage to all targets within range, 50% chance to dodge Physical and Arts attacks, and is less likely to be targeted by enemies",
+            "nation": "Sargon",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DPS",
+                "Survival"
+            ],
+            "description": "Manticore, Specialist Operator of Rhodes Island, will hunt down enemies silently with her scorpion tail.",
+            "descriptionTagLine": "I'm right here!",
+            "rarity": 5,
+            "role": "Specialist",
+            "classBranch": "Ambusher",
+            "internalId": "char_215_mantic"
+        },
+        {
+            "name": "FEater",
+            "trait": "Can attack all blocked enemies and can be deployed on Ranged Tiles",
+            "nation": "Lungmen",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Shift",
+                "Slow"
+            ],
+            "description": "FEater, Specialist Operator of Rhodes Island, will settle disputes with her excellent martial art skills.",
+            "descriptionTagLine": "No stand-in, NO.",
+            "rarity": 5,
+            "role": "Specialist",
+            "classBranch": "Push Stroker",
+            "internalId": "char_241_panda"
+        },
+        {
+            "name": "Nightmare",
+            "trait": "Deals Arts damage",
+            "nation": "Victoria",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "DPS",
+                "Healing",
+                "Slow"
+            ],
+            "description": "Nightmare, Caster Operator of Rhodes Island, will provide help with her Originium Arts, no matter which personality is in at the moment.",
+            "descriptionTagLine": "I'm not quite sure who's standing in front of me.",
+            "rarity": 5,
+            "role": "Caster",
+            "classBranch": "Core Caster",
+            "internalId": "char_164_nightm"
+        },
+        {
+            "name": "Swire",
+            "trait": "Can attack enemies from range; When attacking enemies not blocked by self, increase ATK to 120%",
+            "nation": "Lungmen",
+            "group": "Lungmen Guard Department",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DPS",
+                "Support"
+            ],
+            "description": "Swire, Guard Operator from Lungmen, will provide professional police assistance and extra training for you.",
+            "descriptionTagLine": "Sure enough, the pride of Lungmen comes from the prosperity of its commerce, trades and capital flows!",
+            "rarity": 5,
+            "role": "Guard",
+            "classBranch": "Instructor",
+            "internalId": "char_308_swire"
+        },
+        {
+            "name": "Astesia",
+            "trait": "Deals Arts damage",
+            "nation": "Columbia",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DPS",
+                "Defense"
+            ],
+            "description": "Astesia, Guard of Rhodes Island, has summoned the power of the stars to hold the line.",
+            "descriptionTagLine": "She is the boundless starry skies, as well as your personal alarm clock.",
+            "rarity": 5,
+            "role": "Guard",
+            "classBranch": "Arts Fighter",
+            "internalId": "char_274_astesi"
+        },
+        {
+            "name": "GreyThroat",
+            "trait": "Attacks aerial enemies first",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "DPS"
+            ],
+            "description": "GreyThroat, Sniper Operator of Rhodes Island, brings eternal peace with each of her steady shots.",
+            "descriptionTagLine": "If you're ever on the receiving end of her evil eye, it's not necessarily meant for you.",
+            "rarity": 5,
+            "role": "Sniper",
+            "classBranch": "Marksman",
+            "internalId": "char_367_swllow"
+        },
+        {
+            "name": "Reed",
+            "trait": "Obtain 1 DP after this unit defeats an enemy; Refunds the original DP Cost when retreated",
+            "nation": "Victoria",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DP-Recovery",
+                "DPS"
+            ],
+            "description": "Reed, Rhodes Island inpatient, will provide personal assistance to those who are trustworthy.",
+            "descriptionTagLine": "Using her is more dangerous than protecting her.",
+            "rarity": 5,
+            "role": "Vanguard",
+            "classBranch": "Charger",
+            "internalId": "char_261_sddrag"
+        },
+        {
+            "name": "Leizi",
+            "trait": "Attacks deal Arts damage and jump between 3 enemies. Each jump deals 15% less damage and inflicts a brief Slow",
+            "nation": "Yan",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "DPS"
+            ],
+            "description": "Leizi, judicial officer from the Central Judicial Office, will cooperate with Rhodes Island for a few operations.",
+            "descriptionTagLine": "Have I seen you before somewhere?",
+            "rarity": 5,
+            "role": "Caster",
+            "classBranch": "Chain Caster",
+            "internalId": "char_306_leizi"
+        },
+        {
+            "name": "Elysium",
+            "trait": "Cannot block enemies during the skill duration",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DP-Recovery",
+                "Support"
+            ],
+            "description": "Elysium, Vanguard Operator, ensures that operations proceed smoothly by providing stable battlefield communications.",
+            "descriptionTagLine": "The flag isn't a weapon. It'll cost a lot to replace if it gets broken.",
+            "rarity": 5,
+            "role": "Vanguard",
+            "classBranch": "Standard Bearer",
+            "internalId": "char_401_elysm"
+        },
+        {
+            "name": "Tsukinogi",
+            "trait": "Deals Arts damage; When skill is active, attacks instead restore the HP of allies (heal amount is equal to 75% of ATK)",
+            "nation": "Higashi",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "Support",
+                "Survival"
+            ],
+            "description": "Tsukinogi, former Catastrophe Messenger from Higashi, is supporting the Doctor in controlling the flow of battle.",
+            "descriptionTagLine": "Good at persuading others, but won't work with you.",
+            "rarity": 5,
+            "role": "Supporter",
+            "classBranch": "Abjurer",
+            "internalId": "char_343_tknogi"
+        },
+        {
+            "name": "Leonhardt",
+            "trait": "Deals AOE Arts damage",
+            "nation": "Rim Billiton",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "AoE",
+                "Nuker"
+            ],
+            "description": "Leonhardt, Catastrophe Messenger, is your go-to guy for when you need a difficult obstacle crushed.",
+            "descriptionTagLine": "It is forbidden to bring him a pile of rocks and ask him to identify them.",
+            "rarity": 5,
+            "role": "Caster",
+            "classBranch": "Splash Caster",
+            "internalId": "char_373_lionhd"
+        },
+        {
+            "name": "Ayerscarpe",
+            "trait": "Can launch Ranged Attacks that deal 80% of normal ATK",
+            "nation": "Rim Billiton",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DPS",
+                "AoE"
+            ],
+            "description": "Ayerscarpe, Messenger Bodyguard, will provide support in accordance with the terms of his contract.",
+            "descriptionTagLine": "Actual performance far exceeds what is stipulated in the contract.",
+            "rarity": 5,
+            "role": "Guard",
+            "classBranch": "Lord",
+            "internalId": "char_294_ayer"
+        },
+        {
+            "name": "Beeswax",
+            "trait": "Normally does not attack, but has greatly increased DEF and RES; When skill is active, attacks deal AoE Arts damage",
+            "nation": "Sargon",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "AoE",
+                "Defense"
+            ],
+            "description": "Beeswax, shaman priestess from the Sargon Desert, brings her blessings from the golden sands.",
+            "descriptionTagLine": "Allowing one to touch the horns is a symbol of intimacy, trust, and respect between the two parties.",
+            "rarity": 5,
+            "role": "Caster",
+            "classBranch": "Phalanx Caster",
+            "internalId": "char_344_beewax"
+        },
+        {
+            "name": "April",
+            "trait": "Attacks aerial enemies first",
+            "nation": "Rim Billiton",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "DPS"
+            ],
+            "description": "Rhodes Island Operator April, always in a good mood.",
+            "descriptionTagLine": "You'll have to be loud if you want to get her attention.",
+            "rarity": 5,
+            "role": "Sniper",
+            "classBranch": "Marksman",
+            "internalId": "char_365_aprl"
+        },
+        {
+            "name": "Mr. Nothing",
+            "trait": "Has reduced Redeployment Time, but DP Cost is not refunded upon retreating; While deployed, 3 DP are consumed every 3 seconds (automatically retreats without sufficient DP)",
+            "nation": "Yan",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Fast-Redeploy",
+                "DPS"
+            ],
+            "description": "The Yan martial artist, Mr. Nothing, holds back from scarpering and stands guard on the battlefield.",
+            "descriptionTagLine": "He's armed with a parasol, a fan and a mouth. Who can say if he has anything else on him too?",
+            "rarity": 5,
+            "role": "Specialist",
+            "classBranch": "Merchant",
+            "internalId": "char_455_nothin"
+        },
+        {
+            "name": "Exusiai",
+            "trait": "Attacks aerial enemies first",
+            "nation": "Lungmen",
+            "group": "Penguin Logistics",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "DPS"
+            ],
+            "description": "Exusiai, employee of Penguin Logistics, will clear out everything in the way using her guns.",
+            "descriptionTagLine": "Is it really fine to trust her with any cargo?",
+            "rarity": 6,
+            "role": "Sniper",
+            "classBranch": "Marksman",
+            "internalId": "char_103_angel"
+        },
+        {
+            "name": "Archetto",
+            "trait": "Attacks aerial enemies first",
+            "nation": "Laterano",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "DPS"
+            ],
+            "description": "Cleric of Landen Monastery Archetto, the power to rebuild faith stronger than faith itself.",
+            "descriptionTagLine": "If she pulls you into 'doing your part' for the Monastery, just do what you can.",
+            "rarity": 6,
+            "role": "Sniper",
+            "classBranch": "Marksman",
+            "internalId": "char_332_archet"
+        },
+        {
+            "name": "Mudrock",
+            "trait": "Cannot be healed by allies",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Survival",
+                "Defense",
+                "DPS"
+            ],
+            "description": "Mudrock, Sarkaz mercenary, old friend of the fertile soil and stone.",
+            "descriptionTagLine": "Many people are astonished by her true appearance, and we're all no different.",
+            "rarity": 6,
+            "role": "Defender",
+            "classBranch": "Juggernaut",
+            "internalId": "char_311_mudrok"
+        },
+        {
+            "name": "Eunectes",
+            "trait": "Only restores SP when blocking enemies",
+            "nation": "Sargon",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DPS",
+                "Survival",
+                "Defense"
+            ],
+            "description": "Eunectes, Gavial's rival, steps onto the battlefield along with 'the Raging Ironhide.'",
+            "descriptionTagLine": "She prefers to use machines to solve her problems instead of using her fists.",
+            "rarity": 6,
+            "role": "Defender",
+            "classBranch": "Duelist",
+            "internalId": "char_416_zumama"
+        },
+        {
+            "name": "Mountain",
+            "trait": "Blocks 1 enemy",
+            "nation": "Columbia",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DPS",
+                "Survival"
+            ],
+            "description": "The unchained jail tiger himself, Mountain, immovable as his name.",
+            "descriptionTagLine": "You can try it, but you're not taking one step forward.",
+            "rarity": 6,
+            "role": "Guard",
+            "classBranch": "Fighter",
+            "internalId": "char_264_f12yin"
+        },
+        {
+            "name": "SilverAsh",
+            "trait": "Can launch Ranged Attacks that deal 80% of normal ATK",
+            "nation": "Kjerag",
+            "group": "Karlan Trade Co., Ltd.",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DPS",
+                "Support"
+            ],
+            "description": "SilverAsh, President of Karlan Trade CO., LTD, has signed the contract with Rhodes Island and is ready to join the field.",
+            "descriptionTagLine": "Let your guard down. There are no traps in the conditions he offers. Well, you won't know even if there is one.",
+            "rarity": 6,
+            "role": "Guard",
+            "classBranch": "Lord",
+            "internalId": "char_172_svrash"
+        },
+        {
+            "name": "Thorns",
+            "trait": "Can launch Ranged Attacks that deal 80% of normal ATK",
+            "nation": "Iberia",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DPS",
+                "Defense"
+            ],
+            "description": "Thorns, Guard Operator of Rhodes Island, wastes not an ounce of energy, calculating each strike meticulously.",
+            "descriptionTagLine": "He'll cooperate according to his own interpretation of the commands.",
+            "rarity": 6,
+            "role": "Guard",
+            "classBranch": "Lord",
+            "internalId": "char_293_thorns"
+        },
+        {
+            "name": "Ch'en",
+            "trait": "Normal attacks deal damage twice",
+            "nation": "Lungmen",
+            "group": "Lungmen Guard Department",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Nuker",
+                "DPS"
+            ],
+            "description": "Ch'en, Special Inspection Unit Chief, L.G.D., is cooperating with Rhodes Island to fulfill the obligations outlined in her contract.",
+            "descriptionTagLine": "She's terrifying when she's mad, but you don't want to mess with her even when she's not.",
+            "rarity": 6,
+            "role": "Guard",
+            "classBranch": "Swordmaster",
+            "internalId": "char_010_chen"
+        },
+        {
+            "name": "Siege",
+            "trait": "Blocks 2 enemies",
+            "nation": "Victoria",
+            "group": "Glasgow",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DP-Recovery",
+                "DPS"
+            ],
+            "description": "Siege, leader of the Glasgow Gang, will carve a path for you.",
+            "descriptionTagLine": "She is a born leader.",
+            "rarity": 6,
+            "role": "Vanguard",
+            "classBranch": "Pioneer",
+            "internalId": "char_112_siege"
+        },
+        {
+            "name": "Bagpipe",
+            "trait": "Obtain 1 DP after this unit defeats an enemy; Refunds the original DP Cost when retreated",
+            "nation": "Victoria",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DP-Recovery",
+                "DPS"
+            ],
+            "description": "Bagpipe, former Victorian soldier, has come in search of the truth.",
+            "descriptionTagLine": "Meticulous when it comes to fighting and farming, utterly clueless when it comes to electronics and trends.",
+            "rarity": 6,
+            "role": "Vanguard",
+            "classBranch": "Charger",
+            "internalId": "char_222_bpipe"
+        },
+        {
+            "name": "Ifrit",
+            "trait": "Deals AOE Arts damage in a long line",
+            "nation": "Columbia",
+            "group": "Rhine Lab",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "AoE",
+                "Debuff"
+            ],
+            "description": "Ifrit, former test subject of Rhine Lab, will incinerate all of Silence's enemies.",
+            "descriptionTagLine": "She was born to set things on fire, and it has become a hobby of hers.",
+            "rarity": 6,
+            "role": "Caster",
+            "classBranch": "Blast Caster",
+            "internalId": "char_134_ifrit"
+        },
+        {
+            "name": "Mostima",
+            "trait": "Deals AOE Arts damage",
+            "nation": "Laterano",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "AoE",
+                "Support",
+                "Crowd-Control"
+            ],
+            "description": "Mostima, Senior Messenger, will lay low all obstacles in your path with her Arts.",
+            "descriptionTagLine": "You'll have to find her first.",
+            "rarity": 6,
+            "role": "Caster",
+            "classBranch": "Splash Caster",
+            "internalId": "char_213_mostma"
+        },
+        {
+            "name": "Shining",
+            "trait": "Restores the HP of allies",
+            "nation": "None",
+            "group": "None",
+            "team": "Followers",
+            "position": "Ranged",
+            "tagList": [
+                "Healing",
+                "Support"
+            ],
+            "description": "Shining, Sarkaz healer, will do everything she can to provide medical care for the squad.",
+            "descriptionTagLine": "Simple, yet a mystery you can't seem to solve no matter what.",
+            "rarity": 6,
+            "role": "Medic",
+            "classBranch": "Medic",
+            "internalId": "char_147_shining"
+        },
+        {
+            "name": "Nightingale",
+            "trait": "Restores the HP of 3 allies simultaneously",
+            "nation": "None",
+            "group": "None",
+            "team": "Followers",
+            "position": "Ranged",
+            "tagList": [
+                "Healing",
+                "Support"
+            ],
+            "description": "Nightingale, Sarkaz healer, will do everything she can to provide medical care for the squad.",
+            "descriptionTagLine": "As simple as a blank sheet.",
+            "rarity": 6,
+            "role": "Medic",
+            "classBranch": "Multi-target Medic",
+            "internalId": "char_179_cgbird"
+        },
+        {
+            "name": "Hoshiguma",
+            "trait": "Blocks 3 enemies",
+            "nation": "Lungmen",
+            "group": "Lungmen Guard Department",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Defense",
+                "DPS"
+            ],
+            "description": "Hoshiguma, member of the Special Service of Lungmen Guard Department, is awaiting your orders.",
+            "descriptionTagLine": "Stand by her side when you are scared. It really helps.",
+            "rarity": 6,
+            "role": "Defender",
+            "classBranch": "Protector",
+            "internalId": "char_136_hsguma"
+        },
+        {
+            "name": "Saria",
+            "trait": "Can heal allies by using skill(s)",
+            "nation": "Columbia",
+            "group": "Rhine Lab",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Defense",
+                "Healing",
+                "Support"
+            ],
+            "description": "Saria, former researcher of Rhine Lab, will serve as a core part of the squad's defense and healing unit on the battlefield.",
+            "descriptionTagLine": "Diamond is more flexible than she is.",
+            "rarity": 6,
+            "role": "Defender",
+            "classBranch": "Guardian",
+            "internalId": "char_202_demkni"
+        },
+        {
+            "name": "Blemishine",
+            "trait": "Can heal allies by using skill(s)",
+            "nation": "Kazimierz",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Defense",
+                "Healing",
+                "DPS"
+            ],
+            "description": "Blemishine, Kazimierz knight, is the light of glory about to bloom.",
+            "descriptionTagLine": "If unable to find her, please ask the operators of the Engineering Department.",
+            "rarity": 6,
+            "role": "Defender",
+            "classBranch": "Guardian",
+            "internalId": "char_423_blemsh"
+        },
+        {
+            "name": "Skadi",
+            "trait": "Blocks 1 enemy",
+            "nation": "Aegir",
+            "group": "Abyssal Hunters",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DPS",
+                "Survival"
+            ],
+            "description": "Skadi, bounty hunter, has come with the tide to drown your enemies.",
+            "descriptionTagLine": "She's a bit out of her element, literally.",
+            "rarity": 6,
+            "role": "Guard",
+            "classBranch": "Dreadnought",
+            "internalId": "char_263_skadi"
+        },
+        {
+            "name": "Schwarz",
+            "trait": "High accuracy point-blank shot",
+            "nation": "Columbia",
+            "group": "Siesta",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "DPS"
+            ],
+            "description": "Schwarz, Operator of Rhodes Island, will protect you from the shadows.",
+            "descriptionTagLine": "Keep her away from the faint of heart.",
+            "rarity": 6,
+            "role": "Sniper",
+            "classBranch": "Heavyshooter",
+            "internalId": "char_340_shwaz"
+        },
+        {
+            "name": "Hellagur",
+            "trait": "Can't be healed by other units. Recovers HP every time this operator attacks an enemy",
+            "nation": "Ursus",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DPS",
+                "Survival"
+            ],
+            "description": "Hellagur, the visionary Azazel Guard, is joining you to help you achieve your goals.",
+            "descriptionTagLine": "Violence should only be used as a last resort, but make sure you're ready to use it.",
+            "rarity": 6,
+            "role": "Guard",
+            "classBranch": "Soloblade",
+            "internalId": "char_188_helage"
+        },
+        {
+            "name": "Surtr",
+            "trait": "Deals Arts damage",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DPS"
+            ],
+            "description": "Rhodes Island Guard Operator Surtr, a person difficult to approach.",
+            "descriptionTagLine": "Hopefully she will make an exception for the Doctor.",
+            "rarity": 6,
+            "role": "Guard",
+            "classBranch": "Arts Fighter",
+            "internalId": "char_350_surtr"
+        },
+        {
+            "name": "Suzuran",
+            "trait": "Deals Arts damage and Slows the target for a short time",
+            "nation": "Siracusa",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "Slow",
+                "Support",
+                "DPS"
+            ],
+            "description": "Suzuran, Rhodes Island Operator, has nine times the strength, and the fluffiness.",
+            "descriptionTagLine": "The mysticism and artistry of Higashi, the freedom and yearning of Siracusa.",
+            "rarity": 6,
+            "role": "Supporter",
+            "classBranch": "Decel Binder",
+            "internalId": "char_358_lisa"
+        },
+        {
+            "name": "Magallan",
+            "trait": "Deals Arts damage and can use Summons in battles",
+            "nation": "Columbia",
+            "group": "Rhine Lab",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "Support",
+                "Slow",
+                "DPS"
+            ],
+            "description": "Magallan, the Commissioner of Rhine Labs, is glad to welcome new adventures.",
+            "descriptionTagLine": "Many things can happen when she presses that button, but she swears that explosions aren't one of them.",
+            "rarity": 6,
+            "role": "Supporter",
+            "classBranch": "Summoner",
+            "internalId": "char_248_mgllan"
+        },
+        {
+            "name": "Blaze",
+            "trait": "Attacks all blocked enemies",
+            "nation": "Rhodes Island",
+            "group": "Elite Operators",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DPS",
+                "Survival"
+            ],
+            "description": "Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a wildfire.",
+            "descriptionTagLine": "Please, it's okay to dial it down a bit...",
+            "rarity": 6,
+            "role": "Guard",
+            "classBranch": "Centurion",
+            "internalId": "char_017_huang"
+        },
+        {
+            "name": "Weedy",
+            "trait": "Can attack all blocked enemies and can be deployed on Ranged Tiles",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Shift",
+                "DPS",
+                "Crowd-Control"
+            ],
+            "description": "Weedy, a researcher in Rhodes Island's Bioengineering Department, has set foot on the battlefield after completing her studies.",
+            "descriptionTagLine": "Be mindful of your appearance when you're in front of her!",
+            "rarity": 6,
+            "role": "Specialist",
+            "classBranch": "Push Stroker",
+            "internalId": "char_400_weedy"
+        },
+        {
+            "name": "Aak",
+            "trait": "Continually loses HP over time",
+            "nation": "Lungmen",
+            "group": "None",
+            "team": "Lee's Detective Agency",
+            "position": "Ranged",
+            "tagList": [
+                "Support",
+                "DPS"
+            ],
+            "description": "Aak, Specialist Operator of Rhodes Island, will support other Operators from the rear.",
+            "descriptionTagLine": "You have the right to operate outside his support range.",
+            "rarity": 6,
+            "role": "Specialist",
+            "classBranch": "Geek",
+            "internalId": "char_225_haak"
+        },
+        {
+            "name": "Ceobe",
+            "trait": "Deals Arts damage",
+            "nation": "Rhodes Island",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "DPS",
+                "Crowd-Control"
+            ],
+            "description": "Ceobe is always ready to go after the bad guys.",
+            "descriptionTagLine": "Knocks 'em down one after another, fast and accurate.",
+            "rarity": 6,
+            "role": "Caster",
+            "classBranch": "Core Caster",
+            "internalId": "char_2013_cerber"
+        },
+        {
+            "name": "Phantom",
+            "trait": "Significantly reduced Redeployment Time",
+            "nation": "Victoria",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "Fast-Redeploy",
+                "Crowd-Control",
+                "DPS"
+            ],
+            "description": "Phantom, Rhodes Island Operator, melts into the night like a shadow.",
+            "descriptionTagLine": "If you're in a hurry, try calling his code name - he just might appear behind you.",
+            "rarity": 6,
+            "role": "Specialist",
+            "classBranch": "Executor",
+            "internalId": "char_250_phatom"
+        },
+        {
+            "name": "Rosa",
+            "trait": "Attacks the heaviest enemy first",
+            "nation": "Ursus",
+            "group": "None",
+            "team": "Ursus Student Self-Governing Group",
+            "position": "Ranged",
+            "tagList": [
+                "DPS",
+                "Crowd-Control"
+            ],
+            "description": "Rosa, a member of the Ursus Student Self-Governing Group, is ready to welcome a new life.",
+            "descriptionTagLine": "Give her some time.",
+            "rarity": 6,
+            "role": "Sniper",
+            "classBranch": "Beseiger",
+            "internalId": "char_197_poca"
+        },
+        {
+            "name": "Saga",
+            "trait": "Blocks 2 enemies",
+            "nation": "Higashi",
+            "group": "None",
+            "team": "None",
+            "position": "Melee",
+            "tagList": [
+                "DPS",
+                "DP-Recovery"
+            ],
+            "description": "The wandering monk, Saga, joins in on the action wherever she goes.",
+            "descriptionTagLine": "A heart like lapis. Cleanse the six senses.",
+            "rarity": 6,
+            "role": "Vanguard",
+            "classBranch": "Pioneer",
+            "internalId": "char_362_saga"
+        }
+    ]
+}
