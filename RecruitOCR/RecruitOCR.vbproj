@@ -315,6 +315,8 @@
     <None Include="Resources\char_362_saga.png" />
     <None Include="Resources\char_455_nothin.png" />
     <None Include="Resources\char_4188_confes.png" />
+    <None Include="Resources\char_472_pasngr.png" />
+    <None Include="Resources\char_363_toddi.png" />
     <Content Include="Resources\Recruitment_Permit.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

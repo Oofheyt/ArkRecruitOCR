@@ -577,4 +577,10 @@
   <data name="char_455_nothin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\char_455_nothin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="char_363_toddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\char_363_toddi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="char_472_pasngr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\char_472_pasngr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

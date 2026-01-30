@@ -41,6 +41,7 @@ Partial Class RecruitMain
         Me.CheckBox1Star = New ReaLTaiizor.Controls.ForeverCheckBox()
         Me.ButtonRefresh = New ReaLTaiizor.Controls.ForeverButton()
         Me.ComboBoxWindows = New ReaLTaiizor.Controls.ForeverComboBox()
+        Me.LabelError = New System.Windows.Forms.Label()
         Me.ForeverForm1.SuspendLayout()
         Me.ForeverGroupBox1.SuspendLayout()
         Me.ForeverGroupBox2.SuspendLayout()
@@ -143,6 +144,7 @@ Partial Class RecruitMain
         Me.ForeverGroupBox1.ArrowColorH = System.Drawing.Color.FromArgb(CType(CType(18, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(35, Byte), Integer))
         Me.ForeverGroupBox1.BackColor = System.Drawing.Color.Transparent
         Me.ForeverGroupBox1.BaseColor = System.Drawing.Color.FromArgb(CType(CType(26, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(46, Byte), Integer))
+        Me.ForeverGroupBox1.Controls.Add(Me.LabelError)
         Me.ForeverGroupBox1.Controls.Add(Me.ForeverTextBox6)
         Me.ForeverGroupBox1.Controls.Add(Me.ForeverTextBox5)
         Me.ForeverGroupBox1.Controls.Add(Me.ForeverTextBox4)
@@ -280,11 +282,11 @@ Partial Class RecruitMain
         Me.ForeverGroupBox2.ArrowColorH = System.Drawing.Color.FromArgb(CType(CType(18, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(35, Byte), Integer))
         Me.ForeverGroupBox2.BackColor = System.Drawing.Color.Transparent
         Me.ForeverGroupBox2.BaseColor = System.Drawing.Color.FromArgb(CType(CType(26, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(46, Byte), Integer))
+        Me.ForeverGroupBox2.Controls.Add(Me.ComboBoxWindows)
         Me.ForeverGroupBox2.Controls.Add(Me.ButtonOCRSettings)
         Me.ForeverGroupBox2.Controls.Add(Me.CheckBox2Star)
         Me.ForeverGroupBox2.Controls.Add(Me.CheckBox1Star)
         Me.ForeverGroupBox2.Controls.Add(Me.ButtonRefresh)
-        Me.ForeverGroupBox2.Controls.Add(Me.ComboBoxWindows)
         Me.ForeverGroupBox2.Font = New System.Drawing.Font("Segoe UI", 10.0!)
         Me.ForeverGroupBox2.Location = New System.Drawing.Point(564, 57)
         Me.ForeverGroupBox2.Name = "ForeverGroupBox2"
@@ -376,6 +378,17 @@ Partial Class RecruitMain
         Me.ComboBoxWindows.Sorted = True
         Me.ComboBoxWindows.TabIndex = 2
         '
+        'LabelError
+        '
+        Me.LabelError.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelError.ForeColor = System.Drawing.Color.Red
+        Me.LabelError.Location = New System.Drawing.Point(100, 9)
+        Me.LabelError.Name = "LabelError"
+        Me.LabelError.Size = New System.Drawing.Size(269, 30)
+        Me.LabelError.TabIndex = 6
+        Me.LabelError.Text = "LabelError"
+        Me.LabelError.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'RecruitMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -415,4 +428,5 @@ Partial Class RecruitMain
     Friend WithEvents CheckBox2Star As ReaLTaiizor.Controls.ForeverCheckBox
     Friend WithEvents CheckBox1Star As ReaLTaiizor.Controls.ForeverCheckBox
     Friend WithEvents ButtonStart As ReaLTaiizor.Controls.ForeverButton
+    Friend WithEvents LabelError As Label
 End Class

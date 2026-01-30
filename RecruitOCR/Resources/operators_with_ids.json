@@ -1,8 +1,8 @@
 {
-    "version": "1.2",
-    "date": "2025/10/23 21:56",
+    "version": "1.3",
+    "date": "2026/01/30 19:46",
     "description": "Arknights global server recruitment data",
-    "Author": "Alexbrock",
+    "Author": "Alexbrock (Oofheyt)",
     "credits": "ashleney, sethfire: https://github.com/ArknightsAssets/ArknightsGamedata for the original data",
     "operators": [
         {
@@ -2103,6 +2103,23 @@
             "internalId": "char_455_nothin"
         },
         {
+            "name": "Toddifons",
+            "trait": "Attacks the heaviest enemy first",
+            "nation": "Victoria",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "DPS"
+            ],
+            "description": "Sniper Operator Toddifons, with arrows sent to the sky, and flames falling to the earth.",
+            "descriptionTagLine": "Following her heart, doing as she pleases.",
+            "rarity": 5,
+            "role": "Sniper",
+            "classBranch": "Beseiger",
+            "internalId": "char_363_toddi"
+        },
+        {
             "name": "Exusiai",
             "trait": "Attacks aerial enemies first",
             "nation": "Lungmen",
@@ -2646,6 +2663,23 @@
             "role": "Vanguard",
             "classBranch": "Pioneer",
             "internalId": "char_362_saga"
+        },
+        {
+            "name": "Passenger",
+            "trait": "Attacks deal Arts damage and jump between 3 enemies. Each jump deals 15% less damage and inflicts a brief Slow",
+            "nation": "Sargon",
+            "group": "None",
+            "team": "None",
+            "position": "Ranged",
+            "tagList": [
+                "DPS"
+            ],
+            "description": "Engineering Operator Passenger, thunderous punisher of enemies.",
+            "descriptionTagLine": "His various autonomous weapons bear only models with no names, and telling the difference when they're iterated is a little hard.",
+            "rarity": 6,
+            "role": "Caster",
+            "classBranch": "Chain Caster",
+            "internalId": "char_472_pasngr"
         }
     ]
 }

@@ -21,7 +21,10 @@ Public Class RecruitMain
     "Guard", "Sniper", "Defender", "Medic", "Supporter", "Caster", "Specialist", "Vanguard", "Melee", "Ranged",
     "Top Operator", "Crowd-Control", "Nuker", "Senior Operator", "Healing", "Support", "Starter", "DP-Recovery",
     "DPS", "Survival", "AoE", "Defense", "Slow", "Debuff", "Fast-Redeploy", "Shift", "Summon", "Robot", "Elemental"
-}
+    }
+
+    Private ReadOnly ImageCache As New Dictionary(Of String, Image)()
+
     Public Class OperatorData
         Public Property Name As String
         Public Property Trait As String
@@ -100,6 +103,7 @@ Public Class RecruitMain
 
         CheckBox1Star.Checked = My.Settings.Exclude1Star
         CheckBox2Star.Checked = My.Settings.Exclude2Star
+        LabelError.Text = ""
 
     End Sub
 
@@ -154,6 +158,8 @@ Public Class RecruitMain
 
     Private Async Sub ButtonStart_Click(sender As Object, e As EventArgs) Handles ButtonStart.Click
 
+        LabelError.Text = ""
+
         If ComboBoxWindows.SelectedIndex = 0 Then
             MessageBox.Show("Select a process first", "No process selected", MessageBoxButtons.OK, MessageBoxIcon.Information)
             Return
@@ -195,13 +201,19 @@ Public Class RecruitMain
                 Using cropped As Bitmap = CropBitmap(bmp, leftCrop, topCrop, rightCrop, bottomCrop)
                     Dim extracted As String = Await PerformOCR(cropped)
                     Dim matches As List(Of String) = FilterOcrResult(extracted)
+                    If matches.Count < 1 Or matches.Count > 5 Then
+                        LabelError.Text = "Match count invalid - check OCR/window settings and try again!"
+                        Me.Activate()
+                        Return
+                    End If
+
                     PopulateTextBoxes(matches)
 
                     Dim excludedRarities As New List(Of Integer)
                     If CheckBox1Star.Checked Then excludedRarities.Add(1)
                     If CheckBox2Star.Checked Then excludedRarities.Add(2)
 
-                    Dim combos = RecruitmentLogic.CalculateRecruitCombos(allOps, matches, excludedRarities)
+                    Dim combos = Await Task.Run(Function() RecruitmentLogic.CalculateRecruitCombos(allOps, matches, excludedRarities))
 
                     DisplayRecruitResults(combos)
 
@@ -276,9 +288,10 @@ Public Class RecruitMain
 
         matches = matches.Distinct(StringComparer.OrdinalIgnoreCase).ToList()
 
-        If matches.Count < 2 OrElse matches.Count > 6 Then
-            Throw New InvalidOperationException($"Match count of {matches.Count}. Can't be less than 2 or more than 6.")
-        End If
+        'blech!
+        'If matches.Count < 2 OrElse matches.Count > 5 Then
+        '    Throw New InvalidOperationException($"Match count of {matches.Count} outside of allowed bounds (2 to 5).")
+        'End If
 
         Return matches
 
@@ -360,6 +373,11 @@ Public Class RecruitMain
     Private Sub DisplayRecruitResults(results As List(Of RecruitCombo))
 
         FlowLayoutPanelResults.SuspendLayout()
+
+        For Each ctrl As Control In FlowLayoutPanelResults.Controls
+            ctrl.Dispose()
+        Next
+
         FlowLayoutPanelResults.Controls.Clear()
 
         For Each result In results
@@ -489,11 +507,17 @@ Public Class RecruitMain
     End Function
 
     Private Function GetOperatorImage(internalId As String) As Image
+
+        If ImageCache.ContainsKey(internalId) Then Return ImageCache(internalId)
+
         Try
-            Return CType(My.Resources.ResourceManager.GetObject(internalId), Image)
+            Dim img = CType(My.Resources.ResourceManager.GetObject(internalId), Image)
+            If img IsNot Nothing Then ImageCache.Add(internalId, img)
+            Return img
         Catch
             Return Nothing
         End Try
+
     End Function
 
     Private Sub RecruitMain_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
@@ -507,7 +531,7 @@ Public Class RecruitMain
 
     End Sub
 
-    <DllImport("user32.dll", SetLastError:=True)>
+     <DllImport("user32.dll", SetLastError:=True)>
     Private Shared Function GetWindowRect(hWnd As IntPtr, ByRef lpRect As RECT) As Boolean
     End Function
 
@@ -706,16 +730,31 @@ Public Module RecruitmentLogic
     End Function
 
     Private Function GetComboPriority(r As RecruitCombo) As Integer
-        'guarantees get bonus to sort between
-        If r.Guarantee AndAlso r.MaxStar = 6 Then Return 900
-        If Not r.Guarantee AndAlso r.MaxStar = 6 Then Return 850
-        If r.Guarantee AndAlso r.MaxStar = 5 Then Return 800
-        If r.MinStar = 5 AndAlso r.MaxStar = 5 Then Return 750
-        If r.MinStar = 4 AndAlso r.MaxStar = 5 Then Return 700
-        If r.Guarantee AndAlso r.MaxStar = 4 Then Return 650
-        If r.MinStar = 4 AndAlso r.MaxStar = 4 Then Return 600
-        If r.MinStar = 3 AndAlso r.MaxStar = 4 Then Return 550
-        Return (r.MinStar * 10) + r.MaxStar
+
+        Select Case True
+            Case r.MaxStar = 6 AndAlso r.Guarantee : Return 900
+            Case r.MaxStar = 6 : Return 850
+
+            Case r.MaxStar = 5 AndAlso r.Guarantee : Return 800
+            Case r.MaxStar = 5 AndAlso r.MinStar = 5 : Return 750
+
+            Case r.MaxStar = 5 AndAlso r.MinStar = 4 : Return 700
+            Case r.MaxStar = 4 AndAlso r.Guarantee : Return 650
+            Case r.MaxStar = 4 AndAlso r.MinStar = 4 : Return 600
+
+            Case r.MaxStar = 4 AndAlso r.MinStar = 3 : Return 550
+            Case r.MaxStar = 3 AndAlso r.MinStar = 3 : Return 450
+
+            Case r.MaxStar = 3 AndAlso r.MinStar = 2 : Return 400
+
+            'robots!!
+            Case r.MaxStar = 1 : Return 200
+
+            Case r.MaxStar = 2 : Return 150
+
+            Case Else : Return (r.MinStar * 10) + r.MaxStar
+        End Select
+
     End Function
 
 End Module
